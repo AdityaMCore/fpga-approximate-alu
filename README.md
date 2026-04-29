@@ -13,3 +13,7 @@
 - FSM: 5-state Moore (IDLE→FETCH→DECODE→EXECUTE/APPROX_EXEC→DONE_WB)
 - Approximate mode: XOR-based LSB truncation at K=16, MSB full carry preserved
 - PPA: Approx achieves 3.2× Fmax improvement, 80% dynamic power reduction vs CLA
+Resource Type,Utilization Count,Utilization %
+Slice LUTs,90,0.22%
+Flip-Flops (FF),38,0.05%
+Input/Output (I/O),104,34.67%
