@@ -48,9 +48,9 @@ Isolated internal logic power:
 Approximate mode achieves **80% dynamic power reduction vs CLA** while operating at higher frequency  validating the energy-performance trade off for edge AI workloads.
 
 ---
-### Result Figures
+Future Scope:
+Pipelined Architecture: Segmenting the datapath to increase instruction throughput and further elevate $F_{max}$.
+Advanced Prefix Adders: Replacing the standard CLA with Kogge-Stone or Brent-Kung parallel-prefix network structures to optimize fan-out.
+Expanded Instruction Set: Integrating hardware multipliers to transition this SPU into a fully functional RISC-based processor core.
+Authors: Aditya Mittal * Lakshmi Anand * Soumya Srinivasan
 
-| | |
-|---|---|
-| ![PPA Comparison](docs/figures/results/ppa_comparison.png) | ![Power Breakdown](docs/figures/results/power_breakdown.png) |
-| ![Utilization](docs/figures/results/utilization.png) | |
